@@ -99,7 +99,7 @@ export default function VenueSection() {
         <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-6">
           <div className="aspect-[4/3] relative overflow-hidden rounded-md">
             <Image
-              src="/saminah-1.jpg"
+              src="/1.png"
               alt="Mosque Exterior"
               fill
               className="object-cover hover:scale-105 transition-transform duration-500"
@@ -107,7 +107,7 @@ export default function VenueSection() {
           </div>
           <div className="aspect-[4/3] relative overflow-hidden rounded-md">
             <Image
-              src="/saminah-2.jpg"
+              src="/2.png"
               alt="Mosque Interior"
               fill
               className="object-cover hover:scale-105 transition-transform duration-500"
@@ -115,7 +115,7 @@ export default function VenueSection() {
           </div>
           <div className="aspect-[4/3] relative overflow-hidden rounded-md">
             <Image
-              src="/saminah-3.jpg"
+              src="/3.png"
               alt="Mosque Ceiling"
               fill
               className="object-cover hover:scale-105 transition-transform duration-500"

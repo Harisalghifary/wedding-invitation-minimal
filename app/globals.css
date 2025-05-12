@@ -20,6 +20,12 @@ body {
   font-family: var(--font-inter);
 }
 
+.font-the-seasons {
+  font-family: the-seasons, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+
 
 @layer utilities {
   .text-balance {

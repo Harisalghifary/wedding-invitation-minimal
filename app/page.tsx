@@ -77,121 +77,52 @@ export default function Home() {
           </div>
           <div className="aspect-[3/4] relative">
             <Image
-              src="/placeholder.svg?height=600&width=450"
+              src="/us-1.jpg?height=600&width=450"
               alt="Engagement ring"
               fill
               className="object-cover"
             />
           </div>
         </div>
-      </section>
-      {/* Schedule Section
-      <section className="w-full py-16 bg-[#f5f5f2]">
-        <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-8 px-4">
-          <div className="aspect-square relative">
+        <div className="max-w-4xl mx-auto grid grid-cols-2 gap-4">
+          <div className="aspect-[3/4] relative">
             <Image
-              src="/mosque_1.jpg?height=500&width=500"
-              alt="Welcome dinner venue"
+              src="/us-3.jpg?height=600&width=450"
+              alt="Couple portrait"
               fill
               className="object-cover"
             />
           </div>
-
-          <div className="flex flex-col justify-center">
-            <div className="space-y-6">
-              <p className="uppercase text-sm tracking-widest text-gray-500">
-                25TH MAY 2025
-              </p>
-              <h2 className="text-2xl md:text-3xl font-serif uppercase">
-                AKAD
-              </h2>
-
-              <div className="space-y-2 text-sm">
-                <p className="font-medium">7:30 PM</p>
-                <p>Saminah Sehyadi Mosque</p>
-              </div>
-            </div>
+          <div className="aspect-[3/4] relative">
+            <Image
+              src="/us-4.jpg?height=600&width=450"
+              alt="Couple portrait"
+              fill
+              className="object-cover"
+            />
           </div>
         </div>
-      </section> */}
+        <div className="max-w-4xl mx-auto grid grid-cols-2 gap-4">
+          <div className="aspect-[3/4] relative">
+            <Image
+              src="/us-5.jpg?height=600&width=450"
+              alt="Couple portrait"
+              fill
+              className="object-cover"
+            />
+          </div>
+          <div className="aspect-[3/4] relative">
+            <Image
+              src="/us-6.jpg?height=600&width=450"
+              alt="Couple portrait"
+              fill
+              className="object-cover"
+            />
+          </div>
+        </div>
+      </section>
 
       <VenueSection></VenueSection>
-      {/* Ceremony Section
-      <section className="w-full py-16">
-        <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-8 px-4">
-          <div className="flex flex-col justify-center order-2 md:order-1">
-            <div className="space-y-6">
-              <p className="uppercase text-sm tracking-widest text-gray-500">
-                15TH JULY 2026
-              </p>
-              <h2 className="text-2xl md:text-3xl font-serif uppercase">
-                CEREMONY & RECEPTION
-              </h2>
-
-              <div className="space-y-4 text-sm">
-                <div>
-                  <p className="font-medium">2:00 PM</p>
-                  <p>Ceremony at Beachfront</p>
-                </div>
-
-                <div>
-                  <p className="font-medium">6:30 PM</p>
-                  <p>Reception at The Royal Garden Resort</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="aspect-[3/4] relative order-1 md:order-2">
-            <Image
-              src="/placeholder.svg?height=600&width=450"
-              alt="Ceremony venue"
-              fill
-              className="object-cover"
-            />
-          </div>
-        </div>
-      </section> */}
-      {/* Dresscode Section
-      <section className="w-full py-16">
-        <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-8 px-4">
-          <div className="flex flex-col justify-center order-2 md:order-1">
-            <div className="space-y-6">
-              <h2 className="text-2xl md:text-3xl font-serif uppercase">
-                DRESS CODE
-              </h2>
-
-              <div className="space-y-8">
-                <div className="space-y-1">
-                  <p className="text-sm text-neutral-500">Gentlemen: Suit</p>
-                  <p className="text-sm text-neutral-500">Ladies: Gown</p>
-                </div>
-                <div className="flex justify-center">
-                  <div className="w-16 h-1 bg-neutral-200">
-                    <svg className="w-full h-full" viewBox="0 0 100 20">
-                      <path
-                        d="M0,10 Q25,20 50,10 T100,10"
-                        fill="none"
-                        stroke="black"
-                        strokeWidth="1"
-                      />
-                    </svg>
-                  </div>
-                </div>
-                <div className="text-sm text-neutral-500">
-                  We&apos;d like to see you in these shades:
-                </div>
-                <div className="flex justify-center space-x-4">
-                  <div className="w-10 h-10 rounded-full bg-[#d2b48c]"></div>
-                  <div className="w-10 h-10 rounded-full bg-[#c19a6b]"></div>
-                  <div className="w-10 h-10 rounded-full bg-[#a67b5b]"></div>
-                  <div className="w-10 h-10 rounded-full bg-[#c4b7a6]"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
 
       {/* Dress Code Section */}
       <section className="w-full py-12 bg-[#faf9f6]">
@@ -200,9 +131,8 @@ export default function Home() {
 
           <div className="space-y-2 mb-8">
             <p className="text-neutral-500 text-lg">
-              Gentlemen: Muslim or Shirt
+              Tolong gunakan pakaian yang sopan dan tertutup.
             </p>
-            <p className="text-neutral-500 text-lg">Ladies: Muslim or Shirt</p>
           </div>
 
           <div className="flex justify-center mb-8">
@@ -278,16 +208,6 @@ export default function Home() {
                 Thanks for understanding!.
               </AccordionContent>
             </AccordionItem>
-
-            <AccordionItem value="item-5" className="border-b border-gray-200">
-              <AccordionTrigger className="text-left font-normal uppercase text-sm tracking-wide">
-                What will the weather be like in Solo in May?
-              </AccordionTrigger>
-              <AccordionContent className="text-sm text-gray-600 pt-2 pb-4">
-                May is during Solo's dry season with average temperatures
-                between 73-86°F (23-30°C).
-              </AccordionContent>
-            </AccordionItem>
           </Accordion>
         </div>
       </section>
@@ -304,9 +224,9 @@ export default function Home() {
             help you.
           </p>
 
-          <div className="grid gap-6 md:grid-cols-2 max-w-lg mx-auto">
+          <div className="grid gap-6 md:grid-cols-2 max-w-lg mx-auto justify-center">
             <Link
-              href="https://www.example.com/registry1"
+              href="https://bit.ly/GiftHariKita"
               target="_blank"
               rel="noopener noreferrer"
               className="border border-gray-200 p-6 hover:border-gray-400 transition-colors"
@@ -315,7 +235,7 @@ export default function Home() {
               <p className="text-sm text-gray-600">View our Amazon registry</p>
             </Link>
 
-            <Link
+            {/* <Link
               href="https://www.example.com/registry2"
               target="_blank"
               rel="noopener noreferrer"
@@ -325,7 +245,7 @@ export default function Home() {
               <p className="text-sm text-gray-600">
                 View our Crate & Barrel registry
               </p>
-            </Link>
+            </Link> */}
           </div>
         </div>
       </section>
@@ -339,11 +259,11 @@ export default function Home() {
           </p>
 
           <div className="text-sm mb-4">
-            <p>RSVP BY 18 May, 2025</p>
+            <p>RSVP BY 20 May, 2025</p>
           </div>
 
           <Link
-            href="https://wa.me/081227993475?text=Hello%Haris%20and%Rezkita%2C%20I%20would%20like%20to%20RSVP%20for%20your%20wedding."
+            href="https://wa.me/081227993475?text=Halo%20Haris%20dan%20Rezkita!%0ANama%3A%0AHadir%3A%20Ya%20%2F%20Tidak%0AJumlah%20kehadiran%3A%20%0AApakah%20datang%20dengan%20mobil%3F%20Jika%20iya%2C%20berapa%3F"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-black hover:bg-gray-800 text-white px-8 py-6 text-xs uppercase tracking-widest transition-colors"

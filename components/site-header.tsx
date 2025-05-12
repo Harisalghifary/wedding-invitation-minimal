@@ -6,7 +6,7 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 export function SiteHeader() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between h-16 px-6 bg-[#faf9f6]/90 backdrop-blur-sm border-b border-gray-100">
-      <Link href="/" className="font-serif text-2xl items-center">
+      <Link href="/" className="font-the-session text-2xl items-center">
         RH
       </Link>
 
