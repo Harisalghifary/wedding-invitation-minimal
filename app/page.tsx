@@ -7,13 +7,14 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import VenueSection from "./venue-section";
+import PhotoGallery from "./gallery-section";
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center">
       {/* Hero Section */}
-      <section className="w-full min-h-screen flex flex-col items-center justify-center text-center px-4 relative pt-16">
-        <div className="max-w-4xl w-full space-y-6 mt-16">
+      <section className="w-full min-h-screen flex flex-col items-center justify-center text-center px-4 relative pt-8">
+        <div className="max-w-4xl w-full space-y-6">
           <p className="uppercase text-sm tracking-widest text-gray-500">
             A Journey Begins
           </p>
@@ -42,90 +43,28 @@ export default function Home() {
               className="mx-auto"
             />
           </div>
+        </div>
+      </section>
 
-          <div className="max-w-2xl mx-auto pt-16">
-            <p className="uppercase text-sm tracking-wide leading-relaxed">
-              WE INVITE YOU TO JOIN US AS WE EXCHANGE VOWS AND CELEBRATE THE
-              LOVE THAT HAS BROUGHT US HERE.
-            </p>
-            <p className="text-xs text-gray-500 mt-6">
-              A journey starts in the making, one culminating in a moment we
-              can't wait to share with you.
-            </p>
-
-            <div className="mt-8">
-              <Link
-                href="#our-story"
-                className="uppercase text-xs tracking-widest border-b border-gray-400 pb-1 hover:border-gray-900 transition-colors"
-              >
-                Read Our Story
-              </Link>
-            </div>
-          </div>
+      <section className="w-full px-4">
+        <div className="max-w-2xl mx-auto">
+          <p className="uppercase text-sm tracking-wide leading-relaxed text-center">
+            WE INVITE YOU TO JOIN US AS WE EXCHANGE VOWS AND CELEBRATE THE LOVE
+            THAT HAS BROUGHT US HERE.
+          </p>
+          <p className="text-xs text-gray-500 mt-6 text-center">
+            A journey starts in the making, one culminating in a moment we can't
+            wait to share with you.
+          </p>
         </div>
       </section>
       {/* Gallery Section */}
-      <section className="w-full py-16 px-4">
-        <div className="max-w-4xl mx-auto grid grid-cols-2 gap-4">
-          <div className="aspect-[3/4] relative">
-            <Image
-              src="/cover.jpeg?height=600&width=450"
-              alt="Couple portrait"
-              fill
-              className="object-cover"
-            />
-          </div>
-          <div className="aspect-[3/4] relative">
-            <Image
-              src="/us-1.jpg?height=600&width=450"
-              alt="Engagement ring"
-              fill
-              className="object-cover"
-            />
-          </div>
-        </div>
-        <div className="max-w-4xl mx-auto grid grid-cols-2 gap-4">
-          <div className="aspect-[3/4] relative">
-            <Image
-              src="/us-3.jpg?height=600&width=450"
-              alt="Couple portrait"
-              fill
-              className="object-cover"
-            />
-          </div>
-          <div className="aspect-[3/4] relative">
-            <Image
-              src="/us-4.jpg?height=600&width=450"
-              alt="Couple portrait"
-              fill
-              className="object-cover"
-            />
-          </div>
-        </div>
-        <div className="max-w-4xl mx-auto grid grid-cols-2 gap-4">
-          <div className="aspect-[3/4] relative">
-            <Image
-              src="/us-5.jpg?height=600&width=450"
-              alt="Couple portrait"
-              fill
-              className="object-cover"
-            />
-          </div>
-          <div className="aspect-[3/4] relative">
-            <Image
-              src="/us-6.jpg?height=600&width=450"
-              alt="Couple portrait"
-              fill
-              className="object-cover"
-            />
-          </div>
-        </div>
-      </section>
+      <PhotoGallery></PhotoGallery>
 
       <VenueSection></VenueSection>
 
       {/* Dress Code Section */}
-      <section className="w-full py-12 bg-[#faf9f6]">
+      <section className="w-full py-6 bg-[#faf9f6]">
         <div className="max-w-2xl mx-auto text-center px-4">
           <h2 className="text-3xl font-serif mb-8">DRESS CODE</h2>
 
@@ -152,20 +91,8 @@ export default function Home() {
         </div>
       </section>
 
-      <section>
-        <div className="max-w-4xl mx-auto mt-16 px-4">
-          <div className="flex justify-center">
-            <Link
-              href="#travel"
-              className="uppercase text-xs tracking-widest border-b border-gray-400 pb-1 hover:border-gray-900 transition-colors"
-            >
-              Travel Information
-            </Link>
-          </div>
-        </div>
-      </section>
       {/* FAQ Section */}
-      <section id="faq" className="w-full py-16">
+      <section id="faq" className="w-full py-12">
         <div className="max-w-2xl mx-auto px-4">
           <Accordion type="single" collapsible className="space-y-6">
             <AccordionItem value="item-1" className="border-b border-gray-200">
@@ -211,46 +138,32 @@ export default function Home() {
           </Accordion>
         </div>
       </section>
-      {/* Gift Registry Section */}
-      <section id="registry" className="w-full py-16">
-        <div className="max-w-2xl mx-auto text-center px-4">
-          <h2 className="text-2xl md:text-3xl font-serif mb-8">
-            GIFT REGISTRY
-          </h2>
 
-          <p className="text-sm mb-8 max-w-lg mx-auto">
+      {/* Gift Registry Section */}
+      <section id="registry" className="w-full py-6">
+        <div className="max-w-2xl mx-auto text-center px-4">
+          <h2 className="text-3xl font-serif mb-8">GIFT REGISTRY</h2>
+
+          <p className="text-sm mb-8">
             Your presence at our wedding is the greatest gift of all. However,
             if you wish to honor us with a gift, we've created a registry to
             help you.
           </p>
 
-          <div className="grid gap-6 md:grid-cols-2 max-w-lg mx-auto justify-center">
+          <div className="mt-8">
             <Link
               href="https://bit.ly/GiftHariKita"
               target="_blank"
               rel="noopener noreferrer"
-              className="border border-gray-200 p-6 hover:border-gray-400 transition-colors"
+              className="uppercase text-xs tracking-widest border-b border-gray-400 pb-1 hover:border-gray-900 transition-colors"
             >
-              <h3 className="font-serif text-lg mb-2">Amazon</h3>
-              <p className="text-sm text-gray-600">View our Amazon registry</p>
+              View our Wedding Registry
             </Link>
-
-            {/* <Link
-              href="https://www.example.com/registry2"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="border border-gray-200 p-6 hover:border-gray-400 transition-colors"
-            >
-              <h3 className="font-serif text-lg mb-2">Crate & Barrel</h3>
-              <p className="text-sm text-gray-600">
-                View our Crate & Barrel registry
-              </p>
-            </Link> */}
           </div>
         </div>
       </section>
       {/* RSVP Section */}
-      <section id="rsvp" className="w-full py-16 bg-[#f5f5f2]">
+      <section id="rsvp" className="w-full py-10 bg-[#f5f5f2]">
         <div className="max-w-xl mx-auto text-center px-4">
           <h2 className="text-2xl md:text-3xl font-serif mb-6">RSVP</h2>
           <p className="text-sm mb-8">
@@ -266,20 +179,10 @@ export default function Home() {
             href="https://wa.me/081227993475?text=Halo%20Haris%20dan%20Rezkita!%0ANama%3A%0AHadir%3A%20Ya%20%2F%20Tidak%0AJumlah%20kehadiran%3A%20%0AApakah%20datang%20dengan%20mobil%3F%20Jika%20iya%2C%20berapa%3F"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block bg-black hover:bg-gray-800 text-white px-8 py-6 text-xs uppercase tracking-widest transition-colors"
+            className="inline-block bg-black hover:bg-gray-800 text-white px-6 py-4 text-xs uppercase tracking-widest transition-colors"
           >
             RSVP via WhatsApp
           </Link>
-
-          <div className="mt-6">
-            <Image
-              src="/cat-2.png"
-              alt="Mountain silhouette"
-              width={80}
-              height={20}
-              className="mx-auto"
-            />
-          </div>
         </div>
       </section>
     </main>

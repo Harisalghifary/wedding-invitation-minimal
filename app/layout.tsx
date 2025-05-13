@@ -33,7 +33,7 @@ export default function RootLayout({
       <body className="bg-[#faf9f6] text-gray-900 font-sans">
         <SiteHeader />
         <div className="pt-16">{children}</div>
-        <footer className="w-full py-6 bg-black text-white text-center text-xs">
+        <footer className="w-full py-4 bg-black text-white text-center text-xs">
           <p>DESIGNED BY REZKITA & HARIS</p>
         </footer>
       </body>

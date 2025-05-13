@@ -4,7 +4,7 @@ import { MapPin, Clock, Calendar } from "lucide-react";
 
 export default function VenueSection() {
   return (
-    <section id="venue" className="w-full py-20 bg-[#faf9f6]">
+    <section id="venue" className="w-full py-6 bg-[#faf9f6]">
       <div className="max-w-4xl mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-serif text-center mb-16">
           THE VENUE
@@ -54,9 +54,9 @@ export default function VenueSection() {
               <div className="flex items-start">
                 <Clock className="w-5 h-5 mr-4 mt-0.5 text-gray-700" />
                 <div>
-                  <p className="font-medium">7:30 PM</p>
+                  <p className="font-medium">7:30 AM</p>
                   <p className="text-sm text-gray-600 mt-1">
-                    Doors open at 7:00 PM
+                    Doors open at 7:00 AM
                   </p>
                 </div>
               </div>
@@ -100,14 +100,6 @@ export default function VenueSection() {
           <div className="aspect-[4/3] relative overflow-hidden rounded-md">
             <Image
               src="/1.png"
-              alt="Mosque Exterior"
-              fill
-              className="object-cover hover:scale-105 transition-transform duration-500"
-            />
-          </div>
-          <div className="aspect-[4/3] relative overflow-hidden rounded-md">
-            <Image
-              src="/2.png"
               alt="Mosque Interior"
               fill
               className="object-cover hover:scale-105 transition-transform duration-500"
@@ -115,8 +107,16 @@ export default function VenueSection() {
           </div>
           <div className="aspect-[4/3] relative overflow-hidden rounded-md">
             <Image
-              src="/3.png"
+              src="/2.png"
               alt="Mosque Ceiling"
+              fill
+              className="object-cover hover:scale-105 transition-transform duration-500"
+            />
+          </div>
+          <div className="aspect-[4/3] relative overflow-hidden rounded-md">
+            <Image
+              src="/3.png"
+              alt="Mosque Tower"
               fill
               className="object-cover hover:scale-105 transition-transform duration-500"
             />

@@ -6,22 +6,22 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 export function SiteHeader() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between h-16 px-6 bg-[#faf9f6]/90 backdrop-blur-sm border-b border-gray-100">
-      <Link href="/" className="font-the-session text-2xl items-center">
+      <Link href="/" className="font-serif text-2xl items-center">
         RH
       </Link>
 
       <nav className="hidden md:flex items-center space-x-8">
         <Link
-          href="/"
+          href="#gallery"
           className="text-xs uppercase tracking-widest hover:text-gray-600 transition-colors"
         >
-          Our Story
+          Gallery
         </Link>
         <Link
-          href="#schedule"
+          href="#venue"
           className="text-xs uppercase tracking-widest hover:text-gray-600 transition-colors"
         >
-          Travel & Stay
+          Venue
         </Link>
         <Link
           href="#registry"
@@ -53,16 +53,16 @@ export function SiteHeader() {
         <SheetContent side="right" className="w-[250px] sm:w-[300px]">
           <nav className="flex flex-col gap-6 mt-16">
             <Link
-              href="/"
+              href="#gallery"
               className="text-sm uppercase tracking-widest hover:text-gray-600 transition-colors"
             >
-              Our Story
+              Gallery
             </Link>
             <Link
-              href="#schedule"
+              href="#venue"
               className="text-sm uppercase tracking-widest hover:text-gray-600 transition-colors"
             >
-              Travel & Stay
+              Venue
             </Link>
             <Link
               href="#registry"
