@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function PhotoGallery() {
   return (
-    <section className="w-full py-12 px-4">
+    <section id="gallery" className="w-full py-12 px-4">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-serif text-center mb-12">
           PHOTO GALLERY

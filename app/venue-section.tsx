@@ -29,7 +29,7 @@ export default function VenueSection() {
                 className="inline-flex items-center text-sm uppercase tracking-widest border-b border-gray-400 pb-1 hover:border-gray-900 transition-colors"
               >
                 <MapPin className="w-4 h-4 mr-2" />
-                View on Map
+                Lihat di Maps
               </Link>
             </div>
           </div>
@@ -46,17 +46,17 @@ export default function VenueSection() {
               <div className="flex items-start">
                 <Calendar className="w-5 h-5 mr-4 mt-0.5 text-gray-700" />
                 <div>
-                  <p className="font-medium">25TH MAY 2025</p>
-                  <p className="text-sm text-gray-600 mt-1">Sunday</p>
+                  <p className="font-medium">25 MEI 2025</p>
+                  <p className="text-sm text-gray-600 mt-1">AHAD</p>
                 </div>
               </div>
 
               <div className="flex items-start">
                 <Clock className="w-5 h-5 mr-4 mt-0.5 text-gray-700" />
                 <div>
-                  <p className="font-medium">7:30 AM</p>
+                  <p className="font-medium">7:30 - 10:00</p>
                   <p className="text-sm text-gray-600 mt-1">
-                    Doors open at 7:00 AM
+                    Tamu dapat datang mulai jam 07:00
                   </p>
                 </div>
               </div>
@@ -64,21 +64,21 @@ export default function VenueSection() {
               <div className="flex items-start">
                 <MapPin className="w-5 h-5 mr-4 mt-0.5 text-gray-700" />
                 <div>
-                  <p className="font-medium">Saminah Sihyadi Mosque</p>
+                  <p className="font-medium">Masjid Saminah Sihyadi</p>
                   <p className="text-sm text-gray-600 mt-1">
-                    Jl. Tirtonadi Street No. 9
+                    Jl. Tirtonadi No.9,
                     <br />
-                    Solo, Central Java
+                    Solo, Jawa Tengah
                   </p>
                 </div>
               </div>
             </div>
 
             <div className="pt-4 space-y-4">
-              <p className="text-sm text-gray-700">
-                The Saminah Sehyadi Mosque features stunning modern Islamic
-                architecture with its distinctive textured dome. The serene
-                atmosphere provides the perfect setting for our sacred ceremony.
+              <p className="text-sm text-gray-700 text-justify">
+                Masjid Saminah Sehyadi berdiri anggun dengan arsitektur Islam
+                modern dan kubah bertekstur yang khas. Dalam ketenangannya, kami
+                menemukan ruang paling layak untuk mengikrarkan janji suci.
               </p>
 
               <div className="md:hidden">
@@ -89,7 +89,7 @@ export default function VenueSection() {
                   className="inline-flex items-center text-sm uppercase tracking-widest border-b border-gray-400 pb-1 hover:border-gray-900 transition-colors"
                 >
                   <MapPin className="w-4 h-4 mr-2" />
-                  View on Map
+                  Lihat di Maps
                 </Link>
               </div>
             </div>
@@ -126,9 +126,8 @@ export default function VenueSection() {
         <div className="mt-12 text-center">
           <h4 className="text-lg font-medium mb-4">Parking Information</h4>
           <p className="text-sm text-gray-700 max-w-xl mx-auto">
-            Complimentary parking is available on-site. Additional parking can
-            be found at the nearby public parking area, a 5-minute walk from the
-            venue.
+            Parkir gratis tersedia di lokasi. Parkir tambahan dapat ditemukan di
+            area parkir umum terdekat, 5 menit berjalan kaki dari lokasi.
           </p>
         </div>
       </div>
