@@ -122,14 +122,6 @@ export default function VenueSection() {
             />
           </div>
         </div>
-
-        <div className="mt-12 text-center">
-          <h4 className="text-lg font-medium mb-4">Parking Information</h4>
-          <p className="text-sm text-gray-700 max-w-xl mx-auto">
-            Parkir gratis tersedia di lokasi. Parkir tambahan dapat ditemukan di
-            area parkir umum terdekat, 5 menit berjalan kaki dari lokasi.
-          </p>
-        </div>
       </div>
     </section>
   );

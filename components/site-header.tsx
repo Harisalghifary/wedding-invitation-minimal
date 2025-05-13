@@ -12,16 +12,22 @@ export function SiteHeader() {
 
       <nav className="hidden md:flex items-center space-x-8">
         <Link
-          href="#gallery"
+          href="#synopsis"
           className="text-xs uppercase tracking-widest hover:text-gray-600 transition-colors"
         >
-          Gallery
+          Synopsis
         </Link>
         <Link
           href="#venue"
           className="text-xs uppercase tracking-widest hover:text-gray-600 transition-colors"
         >
           Venue
+        </Link>
+        <Link
+          href="#rsvp"
+          className="text-xs uppercase tracking-widest hover:text-gray-600 transition-colors"
+        >
+          RSVP
         </Link>
         <Link
           href="#registry"
@@ -35,12 +41,6 @@ export function SiteHeader() {
         >
           FAQs
         </Link>
-        <Link
-          href="#rsvp"
-          className="text-xs uppercase tracking-widest hover:text-gray-600 transition-colors"
-        >
-          RSVP
-        </Link>
       </nav>
 
       <Sheet>
@@ -53,16 +53,22 @@ export function SiteHeader() {
         <SheetContent side="right" className="w-[250px] sm:w-[300px]">
           <nav className="flex flex-col gap-6 mt-16">
             <Link
-              href="#gallery"
+              href="#synopsis"
               className="text-sm uppercase tracking-widest hover:text-gray-600 transition-colors"
             >
-              Gallery
+              Synopsis
             </Link>
             <Link
               href="#venue"
               className="text-sm uppercase tracking-widest hover:text-gray-600 transition-colors"
             >
               Venue
+            </Link>
+            <Link
+              href="#rsvp"
+              className="text-sm uppercase tracking-widest hover:text-gray-600 transition-colors"
+            >
+              RSVP
             </Link>
             <Link
               href="#registry"
@@ -75,12 +81,6 @@ export function SiteHeader() {
               className="text-sm uppercase tracking-widest hover:text-gray-600 transition-colors"
             >
               FAQs
-            </Link>
-            <Link
-              href="#rsvp"
-              className="text-sm uppercase tracking-widest hover:text-gray-600 transition-colors"
-            >
-              RSVP
             </Link>
           </nav>
         </SheetContent>
