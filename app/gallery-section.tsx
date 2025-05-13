@@ -9,7 +9,7 @@ export default function PhotoGallery() {
         </h2>
 
         <div className="mb-8">
-          <p className="text-sm text-center">
+          <p className="text-sm text-center tracking-wide">
             Kala pencarian usai, bukan karena lelah, tapi karena akhirnya mereka
             tahu tempat terbaik untuk menetap adalah satu sama lain.
           </p>
@@ -23,7 +23,7 @@ export default function PhotoGallery() {
                 src="/cover.jpeg"
                 alt="Couple by fountain"
                 fill
-                className="object-cover grayscale(100%)"
+                className="object-cover rounded-md hover:scale-105 transition-transform duration-500"
               />
             </div>
             <div className="aspect-[4/3] relative">
@@ -31,7 +31,7 @@ export default function PhotoGallery() {
                 src="/us-3.jpg"
                 alt="Couple portrait"
                 fill
-                className="object-cover"
+                className="object-cover rounded-md hover:scale-105 transition-transform duration-500"
               />
             </div>
             <div className="aspect-[4/3] relative">
@@ -39,7 +39,7 @@ export default function PhotoGallery() {
                 src="/us-5.jpg"
                 alt="Couple portrait"
                 fill
-                className="object-cover"
+                className="object-cover rounded-md hover:scale-105 transition-transform duration-500"
               />
             </div>
           </div>
@@ -51,7 +51,7 @@ export default function PhotoGallery() {
                 src="/us-1.jpg"
                 alt="Couple on stairs"
                 fill
-                className="object-cover"
+                className="object-cover rounded-md hover:scale-105 transition-transform duration-500"
               />
             </div>
             <div className="aspect-[4/3] relative">
@@ -59,7 +59,7 @@ export default function PhotoGallery() {
                 src="/us-4.jpg"
                 alt="Couple portrait"
                 fill
-                className="object-cover"
+                className="object-cover rounded-md hover:scale-105 transition-transform duration-500"
               />
             </div>
             <div className="aspect-[4/3] relative">
@@ -67,7 +67,7 @@ export default function PhotoGallery() {
                 src="/us-6.jpg"
                 alt="Couple portrait"
                 fill
-                className="object-cover"
+                className="object-cover rounded-md hover:scale-105 transition-transform duration-500"
               />
             </div>
           </div>

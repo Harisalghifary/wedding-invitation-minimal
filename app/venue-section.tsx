@@ -4,7 +4,7 @@ import { MapPin, Clock, Calendar } from "lucide-react";
 
 export default function VenueSection() {
   return (
-    <section id="venue" className="w-full py-6 bg-[#faf9f6]">
+    <section id="venue" className="w-full py-12 bg-[#faf9f6]">
       <div className="max-w-4xl mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-serif text-center mb-16">
           THE VENUE
@@ -66,17 +66,15 @@ export default function VenueSection() {
                 <div>
                   <p className="font-medium">Masjid Saminah Sihyadi</p>
                   <p className="text-sm text-gray-600 mt-1">
-                    Jl. Tirtonadi No.9,
-                    <br />
-                    Solo, Jawa Tengah
+                    Jl. Tirtonadi No.9, Solo
                   </p>
                 </div>
               </div>
             </div>
 
             <div className="pt-4 space-y-4">
-              <p className="text-sm text-gray-700 text-justify">
-                Masjid Saminah Sehyadi berdiri anggun dengan arsitektur Islam
+              <p className="text-sm text-gray-700 text-justify tracking-wide">
+                Masjid Saminah Sihyadi berdiri anggun dengan arsitektur Islam
                 modern dan kubah bertekstur yang khas. Dalam ketenangannya, kami
                 menemukan ruang paling layak untuk mengikrarkan janji suci.
               </p>
